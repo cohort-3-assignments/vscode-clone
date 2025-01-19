@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual Studio code - Code Editing Redefined</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar-styles.css">
+    <link rel="stylesheet" href="section.css">
 </head>
+
 <body style="background-color: black;">
     <div class="nav-bar">
         <div id="logo">
-            <img src="./images/icon.png" width="25px"/>
+            <img src="./images/icon.png" width="25px" />
             <div id="logo-text">Visual Studio Code</div>
         </div>
         <ul class="nav-list" style="margin-right: 100px;">
@@ -29,7 +32,7 @@
             </li>
             <li class="nav-item" id="search-box">
                 <img src="./images/search-dark.svg" alt="search-icon" width="20px">
-                <input type="text"  placeholder="Search Docs" id="search-input"/>
+                <input type="text" placeholder="Search Docs" id="search-input" />
             </li>
             <li class="nav-item">
                 <button id="download">
@@ -39,5 +42,67 @@
         </ul>
     </div>
 
+    <div class="section">
+        <div id="hero-title">
+            <div>
+                Your Code editor.
+            </div>
+            <div>
+                Redefined with AI.
+            </div>
+        </div>
+        <div class="flex-row">
+            <button class="download-btn">
+                <div class="flex-row">
+                    <div>
+                        <img src="./images/download.svg" width="20px" />
+                    </div>
+
+                    <div>
+                        .deb
+                    </div>
+
+                </div>
+                <div style="font-size: 0.8rem; margin-top: 10px;">
+                    Debian, Ubuntu...
+                </div>
+            </button>
+            <button class="download-btn">
+                <div class="flex-row">
+                    <div>
+                        <img src="./images/download.svg" width="20px" />
+                    </div>
+
+                    <div>
+                        .rpm
+                    </div>
+
+                </div>
+                <div style="font-size: 0.8rem; margin-top: 10px;">
+                    Red Hat, Fedora...
+                </div>
+            </button>
+            <button class="download-btn"
+                style="background-color: rgb(51, 53, 55); border:1px solid gray;margin-left: 10px;">
+                <div class="flex-row">
+                    Get Copilot Free
+                </div>
+            </button>
+        </div>
+        <div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div style="display: block;position:relative;width:1200px;height:1000px">
+            <div style="width: 100%;height:100%;position:absolute;top:0;left:0;">
+                <img src="./images/hero-background.webp" width="1200" height="800px" style="border-radius: 10px;"/>
+            </div>
+            <div style="width: 100%;height:80%;position:absolute;inset:0;display:flex;justify-content:center;align-items:center;">
+                <iframe src="./images/hero-dark-lg.webm" frameborder="0" width="1000" height="650" style="display: block;position: relative; border-radius: 10px;z-index:1;"> </iframe>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
